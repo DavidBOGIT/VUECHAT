@@ -6,7 +6,7 @@
   
           <form @submit.prevent="handleSubmit" autocomplete="off">
             <div class="mb-3">
-              <label for="user" class="form-label">Ingresar un usuario</label>
+              <label for="user" class="form-label">Ingresar un usuario</label> 
               <input
                 v-model="inputText"
                 type="text"
